@@ -1,5 +1,5 @@
 FROM alpine:3.19.1
-ENV VERSION="1.32.3897.75"
+ENV VERSION="1.32.3805.95"
 
 # Build deps
 RUN apk --no-cache add --update go git breezy wget py3-pip \ 
